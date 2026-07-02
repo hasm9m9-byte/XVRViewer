@@ -28,6 +28,7 @@ android {
     }
     kotlinOptions {
         jvmTarget = "17"
+    implementation("com.google.android.material:material:1.12.0")
     }
 
     buildFeatures {
@@ -45,6 +46,7 @@ android {
 
 dependencies {
     // Core / Compose
+    implementation("com.google.android.material:material:1.12.0")
     implementation("androidx.core:core-ktx:1.13.1")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.8.3")
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.3")
@@ -70,9 +72,9 @@ dependencies {
 
     // Coroutines
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.1")
-
+    implementation("androidx.compose.material:material-...
     // WorkManager (تنظيف التخزين الدوري)
     implementation("androidx.work:work-runtime-ktx:2.9.0")
 
     debugImplementation("androidx.compose.ui:ui-tooling")
-}
+}   implementation("androidx.compose.navigation:navigation-comp...
