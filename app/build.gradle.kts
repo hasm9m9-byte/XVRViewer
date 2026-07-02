@@ -76,4 +76,5 @@ dependencies {
     implementation("androidx.work:work-runtime-ktx:2.9.0")
 
     debugImplementation("androidx.compose.ui:ui-tooling")
-}   implementation("androidx.compose.navigation:navigation-comp...
+    implementation("androidx.compose.navigation:navigation-compose:2.7.7")
+}
